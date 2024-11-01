@@ -1,0 +1,24 @@
+/* Project colors: red, green */
+
+:root {
+  --clr-primary: #070a13;
+  --clr-secondary: #f1f5f9;
+
+  --clr-accent1: #f7203b;
+  --clr-accent2: #166534;
+  --ff: sans-serif;
+}
+
+
+body {
+  height: 100dvh;
+  background-color: var(--clr-primary);
+}
+
+div {
+  text-align: center;
+  color: var(--clr-secondary);
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: var(--ff);
+}
