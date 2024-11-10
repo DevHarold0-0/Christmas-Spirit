@@ -6,19 +6,40 @@
 
   --clr-accent1: #f7203b;
   --clr-accent2: #166534;
-  --ff: sans-serif;
+  --ff: "Inter", sans-serif;
+
+  /* accent1 rgb(247, 32, 59) */
+  /* accent2 rgb(22, 101, 52) */
+
+  /* sizes */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
 }
 
 
 body {
   height: 100dvh;
   background-color: var(--clr-primary);
+  color: var(--clr-secondary)
 }
 
-div {
-  text-align: center;
-  color: var(--clr-secondary);
-  font-size: 4rem;
-  font-weight: 500;
-  font-family: var(--ff);
+a {
+  color: var(--clr-accent1);
+}
+
+strong {
+  color: var(--clr-accent2)
 }
